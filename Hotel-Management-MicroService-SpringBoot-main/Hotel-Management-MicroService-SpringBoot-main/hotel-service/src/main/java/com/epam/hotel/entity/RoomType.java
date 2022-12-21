@@ -26,16 +26,16 @@ public class RoomType {
 	@Column(name = "ROOM_TYPE")
 	@JMap
 	private String roomName;
+	
 	@Column(name = "RENT_PER_DAY")
-	@JMap
-	
+	@JMap	
 	private float rentPerDay;
+	
 	@Column(name = "ROOM_CAPACITY")
-	@JMap
-	
+	@JMap	
 	private int roomCapacity;
-	@Column(name = "IS_ACTIVE")
-	@JMap
 	
+	@Column(name = "IS_ACTIVE")
+	@JMap	
 	private Boolean isActive;
 }
